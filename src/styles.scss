@@ -8,9 +8,20 @@ body {
   padding: 0;
 }
 button {
-  box-shadow: lightgreen 3px 3px 7px;
-  color: darkgreen;
-  &:active {
+  background-color: transparent;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  border: none;
+  box-shadow: lightgray 3px 3px 7px;
+  margin-right: 20px;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  &:hover {
     box-shadow: lightgreen 0 0 5px;
   }
+}
+nav a {
+  cursor: pointer;
 }
