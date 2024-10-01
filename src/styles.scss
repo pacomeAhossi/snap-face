@@ -18,10 +18,8 @@ button {
   font-size: 14px;
   font-weight: 500;
   cursor: pointer;
-  &:hover {
-    box-shadow: lightgreen 0 0 5px;
+  &:active {
+    transform: translate(1px, 1px);
+    box-shadow: lightgray 0 0 5px;
   }
-}
-nav a {
-  cursor: pointer;
 }
